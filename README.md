@@ -77,6 +77,15 @@ incomplete, so choose **mkv** if you expect abrupt stops.
 - This repo does **not** bundle scrcpy's binaries (they're large and maintained
   upstream) — see step 1 above.
 
-## License
+## License & attribution
 
-[MIT](LICENSE) for this UI. scrcpy itself is Apache-2.0 and is a separate project.
+- **Scrcpy_UI** (this wrapper — code, the `scrcpy_ui.png` logo, and docs) is
+  licensed under the [MIT License](LICENSE).
+- **scrcpy** is a separate project by **Genymobile**, licensed under
+  **Apache-2.0**. This repo does not include or redistribute scrcpy; you install
+  it yourself. See [NOTICE](NOTICE.md) for full attribution.
+
+> **Not affiliated.** Scrcpy_UI is an unofficial, community-made front-end and is
+> **not affiliated with, sponsored by, or endorsed by** Genymobile or the scrcpy
+> project. "scrcpy" is used only to describe what this tool works with. The
+> Scrcpy_UI logo is **original artwork** — it is not the scrcpy logo.

@@ -104,9 +104,11 @@ class PhoneRecorder(tk.Tk):
         self.adb = self._find_adb()
 
         try:
-            png = glob.glob(os.path.join(self.scrcpy_dir, "scrcpy.png"))
-            if png:
-                self.iconphoto(True, tk.PhotoImage(file=png[0]))
+            own = os.path.join(APP_DIR, "scrcpy_ui.png")  # our own logo first
+            icon = own if os.path.isfile(own) else next(
+                iter(glob.glob(os.path.join(self.scrcpy_dir, "scrcpy.png"))), None)
+            if icon:
+                self.iconphoto(True, tk.PhotoImage(file=icon))
         except Exception:
             pass
 
