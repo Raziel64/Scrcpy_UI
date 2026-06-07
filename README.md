@@ -11,6 +11,10 @@ settings, and hit **Record / Stop** — no command line required.
 ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 
+<p align="center">
+  <img src="screenshot.png" alt="Scrcpy_UI screenshot" width="640">
+</p>
+
 ## Features
 
 - One-click **Record / Stop** with a clean stop (file is finalized, not corrupted)

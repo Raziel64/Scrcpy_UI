@@ -7,6 +7,10 @@
 A friendly, step-by-step guide. If you just want the short version: plug in your
 phone, run the app, click **Record**.
 
+<p align="center">
+  <img src="screenshot.png" alt="Scrcpy_UI screenshot" width="600">
+</p>
+
 ---
 
 ## 1. One-time setup
