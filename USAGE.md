@@ -17,7 +17,7 @@ Download a Windows build from the
 [scrcpy releases page](https://github.com/Genymobile/scrcpy/releases) and unzip
 it. Then do **one** of these:
 
-- Put the unzipped `scrcpy-win64-*` folder **next to** `phone_recorder.py`, **or**
+- Put the unzipped `scrcpy-win64-*` folder **next to** `scrcpy_ui.py`, **or**
 - Install it system-wide so it's on your PATH:
   `winget install Genymobile.scrcpy` (or `scoop install scrcpy`), **or**
 - Just run the app — if it can't find scrcpy, it'll ask you to point at
@@ -35,7 +35,7 @@ it. Then do **one** of these:
 
 ## 2. Daily use
 
-1. **Launch the app** — double-click **`Phone Recorder.bat`**.
+1. **Launch the app** — double-click **`Scrcpy_UI.bat`**.
    > This opens the **control panel** (buttons + settings). It does **not** show
    > your phone screen yet — that's the next step.
 2. Click **⟳ Refresh** — your phone should appear in the **Device** dropdown

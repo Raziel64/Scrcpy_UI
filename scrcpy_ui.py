@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Phone Recorder - a small, dependency-free GUI front-end for scrcpy.
+Scrcpy_UI - a small, dependency-free GUI front-end for scrcpy.
 https://github.com/Genymobile/scrcpy
 
 Pick a device, tweak the common recording settings, and hit Record / Stop
@@ -32,7 +32,7 @@ import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
 
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
-CONFIG = os.path.join(APP_DIR, "phone_recorder_config.json")
+CONFIG = os.path.join(APP_DIR, "scrcpy_ui_config.json")
 
 CREATE_NEW_PROCESS_GROUP = 0x00000200  # lets us send CTRL_BREAK to just this child
 CREATE_NO_WINDOW = 0x08000000          # for adb helper calls, no flashing console
@@ -91,7 +91,7 @@ def save_scrcpy_choice(path):
 class PhoneRecorder(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("Phone Recorder  ·  scrcpy GUI")
+        self.title("Scrcpy_UI")
         self.configure(bg=BG)
         self.resizable(False, False)
 
@@ -179,7 +179,7 @@ class PhoneRecorder(tk.Tk):
         out.columnconfigure(1, weight=1)
 
         ttk.Label(out, text="Folder").grid(row=0, column=0, sticky="w", pady=3)
-        self.folder_var = tk.StringVar(value=os.path.join(os.path.expanduser("~"), "Videos"))
+        self.folder_var = tk.StringVar(value=os.path.join(APP_DIR, "recordings"))
         ttk.Entry(out, textvariable=self.folder_var).grid(row=0, column=1, sticky="ew", padx=8)
         ttk.Button(out, text="Browse…", command=self.browse_folder).grid(row=0, column=2)
 

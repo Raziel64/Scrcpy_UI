@@ -23,7 +23,7 @@ settings, and hit **Record / Stop** — no command line required.
 1. **Get scrcpy** (if you don't have it): download a Windows build from the
    [scrcpy releases](https://github.com/Genymobile/scrcpy/releases) and unzip it.
    Either:
-   - put the unzipped `scrcpy-win64-*` folder **next to** `phone_recorder.py`, **or**
+   - put the unzipped `scrcpy-win64-*` folder **next to** `scrcpy_ui.py`, **or**
    - install scrcpy so it's on your PATH (`scoop install scrcpy`,
      `choco install scrcpy`, or `winget install Genymobile.scrcpy`), **or**
    - just launch the app and point it at `scrcpy.exe` when asked.
@@ -31,14 +31,15 @@ settings, and hit **Record / Stop** — no command line required.
    (Tkinter is included; tick "Add Python to PATH" during install).
 3. **On your phone (one-time):** enable **Developer options → USB debugging**,
    plug in via USB, and tap **Allow** on the prompt.
-4. **Run it:** double-click **`Phone Recorder.bat`** (or `python phone_recorder.py`),
+4. **Run it:** double-click **`Scrcpy_UI.bat`** (or `python scrcpy_ui.py`),
    click **⟳ Refresh**, then **● Record**.
 
 > 💡 Launching only opens the **control panel** — click **● Record** (or
 > **Mirror only**) to actually open your phone screen.
 
 **Where do recordings go?** To the folder shown in the app's **Output → Folder**
-box — by default `C:\Users\<you>\Videos`. Change it with **Browse…**. Files are
+box — by default a **`recordings`** folder next to the app. Change it with
+**Browse…**. Files are
 auto-named with a timestamp, e.g. `phone_20260607_143022.mp4`.
 
 📖 **New here? See the step-by-step [USAGE guide](USAGE.md).**

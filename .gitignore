@@ -9,7 +9,10 @@ __pycache__/
 _smoke.py
 
 # Remembered scrcpy location (per-machine)
-phone_recorder_config.json
+scrcpy_ui_config.json
+
+# Recordings saved into the app folder by default
+recordings/
 
 # Recordings / scratch
 *.mp4
