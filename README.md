@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="scrcpy_ui.png" alt="Scrcpy_UI" width="96">
+</p>
+
 # Scrcpy_UI — a tiny GUI for recording your Android phone
 
 A no-dependency Python/Tkinter front-end for

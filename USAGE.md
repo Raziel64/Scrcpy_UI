@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="scrcpy_ui.png" alt="Scrcpy_UI" width="80">
+</p>
+
 # How to use Scrcpy_UI
 
 A friendly, step-by-step guide. If you just want the short version: plug in your
