@@ -34,7 +34,14 @@ settings, and hit **Record / Stop** — no command line required.
 4. **Run it:** double-click **`Phone Recorder.bat`** (or `python phone_recorder.py`),
    click **⟳ Refresh**, then **● Record**.
 
-Recordings save to the chosen folder (default `~/Videos`).
+> 💡 Launching only opens the **control panel** — click **● Record** (or
+> **Mirror only**) to actually open your phone screen.
+
+**Where do recordings go?** To the folder shown in the app's **Output → Folder**
+box — by default `C:\Users\<you>\Videos`. Change it with **Browse…**. Files are
+auto-named with a timestamp, e.g. `phone_20260607_143022.mp4`.
+
+📖 **New here? See the step-by-step [USAGE guide](USAGE.md).**
 
 ## What the controls map to
 
