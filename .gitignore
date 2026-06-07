@@ -1,0 +1,16 @@
+# Bundled scrcpy build — third-party binaries (~40 MB), download separately.
+# See README for the link; place the extracted folder here as scrcpy-win64-v4.0/
+scrcpy-win64*/
+scrcpy-win*/
+
+# Python
+__pycache__/
+*.pyc
+_smoke.py
+
+# Remembered scrcpy location (per-machine)
+phone_recorder_config.json
+
+# Recordings / scratch
+*.mp4
+*.mkv
